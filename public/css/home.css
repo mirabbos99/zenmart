@@ -2,6 +2,216 @@
     padding-bottom: 60px;
     display: flex;
 flex-direction: column;}
+/* NAVBAR */
+.navbar_frame {position:relative;
+width:100%;
+height:145px;
+background:rgb(68,50,151);
+display:flex;
+flex-direction:row;
+justify-content:center; 
+}
+.navbar_frame .container {position:relative;
+    padding:20px 0 14px;
+
+flex-direction: column;
+}
+
+.navbar_frame .container .navbar_top{
+    width:100%;
+    height:50px;
+    display:flex;
+    flex-direction:row;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.navbar_frame .navbar_top .nav_search_frame{
+    width:651px;
+    height:50px;
+    border-radius:6px;
+    background:rgb(255,255,255);
+    display:flex;
+    flex-direction:row;
+}
+.navbar_frame .nav_search_frame .search_box {
+    padding:10px 17px;
+display:flex;
+flex-direction:row;
+align-items:center;
+
+}
+.navbar_frame .search_box .category_list {
+    width:166px;
+    height:30px;
+    border-right:1px solid rgb(214,214,214);
+}
+.navbar_frame .category_list select{
+    width:140px;height:30px;
+    border:none;
+    outline:none;
+    color:rgb (4,30,66);
+    font-family:Jost;
+    font-size:15px;
+    font-weight:400;
+    line-height:22px;
+    letter-spacing:0%;
+    text-align:left; 
+}
+.navbar_frame .search_box input{
+    margin-left:12px;
+    width:387px;
+    height:22px;
+    color:rgb(98,105,116);
+    font-family:Jost;
+    font-size:15px;
+    font-weight:400;
+    letter-spacing:0%;
+    text-align:left;
+    border:none;
+    outline:none;
+}
+.navbar_frame .nav_search_frame .search_icon_box {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 6px 6px 8px;
+    background:rgb(245,195,75)
+
+}
+.navbar_frame .navbar_top .nav_top_menu{  
+    width:416.87px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    display: flex;
+    flex-direction: row;
+}
+.navbar_frame .nav_top_menu .top_menu_box {
+    display: flex;
+    flex-direction: row;
+
+}
+.navbar_frame .top_menu_box .box_icon_box {
+    position: relative;
+width:54px;
+height: 50px;
+border:1px solid rgba(255,255,255,0.1);
+border-radius: 6px;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar_frame .box_icon_box img {
+    width: 22px;
+    height: 22px;  
+}
+.navbar_frame .box_info_box span{
+color:rgb(255,255,255);
+font-family: Jost;
+font-size:16px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.navbar_frame .box_info_box strong{
+    color:rgb(255,255,255);
+font-family: Jost;
+font-size:16px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+    
+}
+.navbar_frame .top_menu_box .box_info_box {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 16px;
+}
+.navbar_frame .box_icon_box .basket_count {position: absolute;
+    top:0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgb(245,195,75);
+    color:rgb(11,30,64);
+    font-family: Jost;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.navbar_frame .container .navbar_bott{
+margin-top:20px;
+    border-top:1px solid #5747a2; 
+}
+.navbar_frame .navbar_bott .navbar_bott_menu_box {
+    margin-top:10px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+.navbar_frame .navbar_bott .browse_box {
+    width: 185px;
+    display: flex;
+    flex-direction: row;
+align-items: center;
+border-right: 1px solid #5747a2;
+}
+.navbar_frame .browse_box img {width: 20px;
+height: 18px;}
+.navbar_frame .browse_box span{
+    margin-left: 10px;
+    color: rgb(255,255,255);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.navbar_frame .navbar_bott_menu_box .navbar_route_menu {
+    width: 670px;
+    display: flex;
+    flex-direction: row;
+
+}
+.navbar_frame .navbar_route_menu a {
+    margin-right: 10px;
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    color:#fff;
+
+}
+.navbar_frame .navbar_route_menu a.tittle {
+    color:#f5c34b 
+}
+.navbar_frame .sorting_menu span{
+    margin-left: 10px;
+    color:rgb(255,255,255);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
 /* HEADER */
 .header_frame {position:relative;
 margin-top: 47px;
@@ -271,5 +481,172 @@ border-radius: 15px;
     text-align: center;
     color:#041e42;
 }
+/* SELLING PRODUCT */
+.selling_product_frame{
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
+}
+.selling_product_frame .container {
+    flex-direction: column;
+}
+.selling_product_frame .container .product_wrapper {
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.selling_product_frame .product_wrapper .next_prev_box{
+    width: 25px;
+}
+.selling_product_frame .next_prev_box img {
+    position: absolute;
+    top:50%;
+    cursor: pointer;
+}
+.selling_product_frame .product_wrapper .product_boxes{
+    position: relative;
+    width: 1224px;
+    height: 452px;
+    display: flex;
+    flex-direction: row;
+}
+.selling_product_frame .product_boxes .product_box{
+    width: 306px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* cursor: pointer; */
+}
+.selling_product_frame .product_box .product_img_box{
+    width: 100%;
+    height: 280px;
+
+}
+.selling_product_frame .product_img_box .hover_box {
+display: none;
+width: 100%;
+height: 100%;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+}
+.selling_product_frame .hover_box button{
+    margin-bottom: 10px;
+    width: 260px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    background: #0053f6;
+    box-shadow: 0px 5px 20px rgba(0,83,246,0.1);
+    border-radius: 6px;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    
+}
+.selling_product_frame .product_img_box:hover .hover_box{
+    display: flex;
+}
+.selling_product_frame .product_box .product_content_box{
+    width: 100%;
+    height: auto;
+    padding: 5px 22px;
+    box-sizing: border-box;
+}
+.selling_product_frame .product_content_box .product_tittle{
+font-family: "Jost";
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 22px;
+text-transform: uppercase;
+color: #626974;
+}
+.selling_product_frame .product_content_box .product_desc{
+    margin-top: 7px;
+    height: 56px;
+    overflow: hidden;
+    font-family: "Jost";
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+color: #041e42;
+
+}
+.selling_product_frame .product_content_box .rewiew_box{
+    margin-top: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.selling_product_frame .review_box img {
+    margin-right: 5px;
+
+}
+.selling_product_frame .rewiew_box span {
+    margin-left: 10px;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #626974;
+}
+.selling_product_frame .product_content_box .price_box{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.selling_product_frame .price_box strong{
+     font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color:#041e42
+}
+.selling_product_frame .price_box span{
+    margin-left: 10px;
+      font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration-line: line-through;
+    color: #626974;
+}
+.home_page .adv_frame {
+    margin-top: 90px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #0053f6;
+    border-radius: 6px;
+background: rgba(229, 237, 255, 1);
+}
 
