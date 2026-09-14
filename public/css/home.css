@@ -682,7 +682,7 @@ line-height: 28px;
     flex-direction: row;
     justify-content: space-between;
 }
-.tv_wrapper .tv_product_box {
+.tv_wrapper .tv_product_boxes {
     width: 1300px;
     height: 452px;
     display: flex;
