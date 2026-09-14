@@ -539,6 +539,7 @@ background: rgba(229, 237, 255, 1);
 
 }
 .spec_product_frame .container{
+    left: 80px;
     flex-direction: column;
 }
 .spec_product_frame .container .spec_category_wrapper{
@@ -652,6 +653,12 @@ line-height: 28px;
     right: 30px;
     bottom:15px;
 }
+.spec_product_frame .small_product_box:nth-child(even) {
+    margin-left: 30px;}
+    .spec_product_frame .small_product_box .small_product_content {
+    display: flex;
+    flex-direction: column;
+}
 /* TV FRAME */
 .home_page .tv_frame{
      position: relative;
@@ -664,6 +671,7 @@ line-height: 28px;
 }
 
 .tv_frame .container {
+    left:80px;
     margin-top: 90px;
     flex-direction: column;
 }
