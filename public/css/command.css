@@ -15,216 +15,159 @@ display: flex;
     padding-bottom: 60px;
     display: flex;
 flex-direction: column;}
-.white_svg {
-    filter: brightness(0) invert(1)
-}
-.container .category_top {
+/* Footer Frame  */
+ .footer_frame {
+    position: relative;
+    background: rgb(243,245,246);
     width: 100%;
-    height: auto;
+    height: 507px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 90px 0 20px;
+ }
+ .footer_frame .footer_contact_tittle {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    color: rgb(4,30,66);
+    font-family: "Jost";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+ }
+ .footer_frame .container {
+    flex-direction: column;
+ }
+ .footer_frame .footer_top {
+    display: flex;
+    flex-direction: row;
+ }
+ .footer_frame .footer_top .footer_contact_main {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+ }
+  .footer_frame .footer_top .footer_contact_main img {
+    width: 30px;
+    height: 30px;
+  }
+   .footer_frame .footer_top .footer_contact_main div {
+    margin-left: 30px;
+    display: flex;
+    flex-direction:column;
+   } 
+     .footer_frame .footer_top .footer_contact_main div strong {
+color: rgb (4,30,66);
+font-family: "Jost";
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+     }
+   .footer_frame .footer_top .footer_contact_main div span {
+    margin-top: 10px;
+color: rgb (4,30,66);
+font-family: "Jost";
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+   }
+.footer_frame .footer_support_box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+.footer_frame .footer_support_box a {
+    color: rgb(4,30,66);
+    font-family: "Jost";
+font-size: 14px;
+font-weight: 400;
+margin-bottom: 20px;
+}
+.footer_media_box {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.footer_media_box .footer_media_main {
+    display: flex;
+    flex-direction: column;
+}
+.footer_frame .footer_media_main div {
+    display: flex;
+    flex-direction: row;
+}
+footer_frame .footer_media_main div i {
+    margin-right: 25px;
+}
+.footer_frame .footer_media_main .mobile_app_box {
+    margin-bottom: 25px;
+
+}
+.footer_frame .footer_media_main .mobile_app_box span {
+    color: rgb(4,30,66);
+    font-family: "Jost";
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer_frame .mobile_app_box i {
+    margin-right: 20px;
+}
+
+.footer_frame .footer_contact_main .card_box img {
+margin-right: 10px;
+}
+.footer_frame .footer_bottom {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #eaeaea;
+}
+.footer_frame .footer_bottom .footer_main {
+    width: 100%;
+
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 }
-.container .category_top div {
+.footer_frame .footer_bottom .footer_main .footer_bottom_left {
     display: flex;
     flex-direction: row;
 }
-.container .category_top span {
-    font-family: "Jost";
-    font-style:normal;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 40px;
-    color:#041e42;
-    text-transform: capitalize;
-}
-.container .category_top a {
-     font-family: "Jost";
-    font-style:normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 22px;
-        color:#041e42;
-    text-transform: capitalize;
-    margin-left: 30px;
-
-
-}
-.container .category_top a:hover {
-    border-bottom: 2px solid #041e42;
-}
-/* PAGINATION */
-.container .pagination_box{
-    margin-top: 30px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.container .pagination_box .pagination_main{
-width: auto;
-height: 24px;
-display: flex;
-flex-direction: row;
-
-
-}
-.container .pagination_main img{
-    cursor: pointer;
-}
-.container .pagination_main .pagination_dot{
-    margin: 0 20px;
-    display: flex;
-    flex-direction: row;
-}
-
-.container .pagination_dot .dot{
-    width: 20px;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-    border-radius: 50%;
-}
-.container .pagination_dot .dot.active{
-    border:2px solid #112137;
-}
-.container .pagination_dot .dot div{
-    width: 4px;
-    height: 4px;
-    background: #112137;
-    border-radius: 50%;
-}
-/* NEXT */
-    .container .next_prev_box{
-    width: 25px;
-}
-.container .next_prev_box img {
-    position: absolute;
-    top:50%;
-    cursor: pointer;
-}
-/* HEADER */
-.container .hover_border {
-    margin-top: 3px;
-    width: 32px;
-    height: 2px;
-    background: #041e42;
-}
-/* Rewiev box */
-.container .product_boxes .product_box{
-    width: 306px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    /* cursor: pointer; */
-}
-.container .product_box .product_img_box{
-    width: 100%;
-    height: 280px;
-
-}
-.container .product_img_box .hover_box {
-display: none;
-width: 100%;
-height: 100%;
-flex-direction: column;
-justify-content: flex-end;
-align-items: center;
-}
-.container .hover_box button{
-    margin-bottom: 10px;
-    width: 260px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    outline: none;
-    border: none;
-    background: #0053f6;
-    box-shadow: 0px 5px 20px rgba(0,83,246,0.1);
-    border-radius: 6px;
-    font-family: "Jost";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 22px;
-    color: #ffffff;
-    
-}
-.container .product_img_box:hover .hover_box{
-    display: flex;
-}
-.container .product_content_box{
-    width: 100%;
-    height: auto;
-    padding: 5px 22px;
-    box-sizing: border-box;
-}
-.container .product_content_box .product_tittle{
+.footer_frame .footer_bottom .footer_main .footer_bottom_left span {
+color: rgb(4,30,66);
 font-family: "Jost";
-font-style: normal;
+font-style: 14px;
 font-weight: 400;
-font-size: 13px;
-line-height: 22px;
-text-transform: uppercase;
-color: #626974;
+line-height: 40px;
 }
-.container .product_content_box .product_desc{
-    margin-top: 7px;
-    height: 56px;
-    overflow: hidden;
-    font-family: "Jost";
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 28px;
-color: #041e42;
-
-}
-.container .product_content_box .rewiew_box{
-    margin-top: 7px;
+.footer_frame .footer_bottom .footer_bottom_right{
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
-.container .review_box img {
-    margin-right: 5px;
+.footer_frame .footer_bottom_right .footer_select_box{
+    padding: 10px 20px;
+box-sizing: border-box;
+border:1px solid rgb(234,234,234);
+border-radius: 6px;
+background: rgb(255,255,255);
 
 }
-.container .rewiew_box span {
-    margin-left: 10px;
-    font-family: "Jost";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-    color: #626974;
+.footer_frame .footer_bottom_right .footer_select_box span{
+color: rgb(98,101,116);
+font-family: "Jost";
+font-size: 14px;
+font-weight: 400;
+
 }
-.container .product_content_box .price_box{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.container .price_box strong{
-     font-family: "Jost";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 26px;
-    color:#041e42
-}
-.container .price_box span{
-    margin-left: 10px;
-      font-family: "Jost";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-    text-decoration-line: line-through;
-    color: #626974;
+.footer_frame .footer_bottom_right .footer_select_box select {
+    color: rgb(4,30,66);
+font-family: "Jost";
+font-size: 14px;
+font-weight: 400;
+border: none;
+outline: none;
 }
