@@ -934,7 +934,7 @@ border-radius: 5px;
 flex-direction: row;
 justify-content: center;
 }
-.container .event_content_box {
+.event_frame .container .event_content_box {
     
     width: 340px;
     height: auto;
@@ -943,7 +943,7 @@ justify-content: center;
     justify-content:center;
     
 }
-.event_content_box .even_title {
+.event_frame .event_content_box .even_title {
         font-family: "Jost";
     font-size: normal;
     font-weight: 400;
@@ -953,18 +953,18 @@ justify-content: center;
     color: #ffffff;
 
 }
-.event_content_box .timer_wrapper{
+.event_frame .event_content_box .timer_wrapper{
 display: flex;
 flex-direction: row;
 margin: 30px 0;
 }
-.timer_wrapper .timer_box {
+.event_frame .timer_wrapper .timer_box {
     width: 82px;
     height: auto;
     display: flex;
     flex-direction: column;
 }
-.timer_box strong {
+.event_frame .timer_box strong {
      font-family: "Jost";
     font-size: normal;
     font-weight: 400;
@@ -974,7 +974,7 @@ margin: 30px 0;
     color: #ffffff;
 
 }
-.timer_box span {
+.event_frame .timer_box span {
  font-family: "Jost";
     font-size: normal;
     font-weight: 400;
@@ -983,7 +983,7 @@ margin: 30px 0;
     text-transform: capitalize;
     color: #ffffff;
 }
-.event_content_box a {
+.event_frame .event_content_box a {
 width: 140px;
 height: 50px;
 display: flex;
@@ -1000,13 +1000,13 @@ border: 1px solid #ffffff;
     color: #041e42;
     text-transform: capitalize;
 }
-.container .event_product_wrapper {
+.event_frame .container .event_product_wrapper {
     width: 930px;
     height: auto;
     display: flex;
     flex-direction: row;
 }
-.event_product_wrapper .event_product_boxes{
+.event_frame .event_product_wrapper .event_product_boxes{
     position: relative;
     width: auto;
     height: auto;
@@ -1015,7 +1015,7 @@ border: 1px solid #ffffff;
     align-items: center;
 
 }
-.event_product_boxes .event_product_box {
+.event_frame .event_product_boxes .event_product_box {
     margin-right: 8px;
     width: 205px;
     height: 392px;
@@ -1024,7 +1024,7 @@ border: 1px solid #ffffff;
     background: #ffffff;
     border-radius: 6px;
 }
-.event_product_box .even_product_img {
+.event_frame .event_product_box .even_product_img {
     width: 100%;
     height: 220px;
     display: flex;

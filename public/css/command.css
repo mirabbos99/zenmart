@@ -86,20 +86,20 @@ font-size: 14px;
 font-weight: 400;
 margin-bottom: 20px;
 }
-.footer_media_box {
+.footer_frame .footer_media_box {
     margin-left: 60px;
     display: flex;
     flex-direction: column;
 }
-.footer_media_box .footer_media_main {
+.footer_frame .footer_media_box .footer_media_main {
     display: flex;
     flex-direction: column;
 }
-.footer_frame .footer_media_main div {
+.footer_frame .footer_frame .footer_media_main div {
     display: flex;
     flex-direction: row;
 }
-footer_frame .footer_media_main div i {
+.footer_frame .footer_media_main div i {
     margin-right: 25px;
 }
 .footer_frame .footer_media_main .mobile_app_box {
