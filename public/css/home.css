@@ -934,8 +934,7 @@ border-radius: 5px;
 flex-direction: row;
 justify-content: center;
 }
-.event_frame .container .event_content_box {
-    
+.container .event_content_box {
     width: 340px;
     height: auto;
     display: flex;
@@ -943,7 +942,7 @@ justify-content: center;
     justify-content:center;
     
 }
-.event_frame .event_content_box .even_title {
+.event_frame .event_content_box .event_title {
         font-family: "Jost";
     font-size: normal;
     font-weight: 400;
@@ -951,14 +950,14 @@ justify-content: center;
     line-height: 40px;
     text-transform: capitalize;
     color: #ffffff;
-
 }
-.event_frame .event_content_box .timer_wrapper{
+
+.event_content_box .timer_wrapper{
 display: flex;
 flex-direction: row;
-margin: 30px 0;
+margin: 25px 0;
 }
-.event_frame .timer_wrapper .timer_box {
+.timer_wrapper .timer_box {
     width: 82px;
     height: auto;
     display: flex;
@@ -978,7 +977,7 @@ margin: 30px 0;
  font-family: "Jost";
     font-size: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 16px;
     line-height: 40px;
     text-transform: capitalize;
     color: #ffffff;
