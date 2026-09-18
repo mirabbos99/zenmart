@@ -215,7 +215,7 @@
         </div>
     </div>
 
-    <div class="selling_product_frame">
+      <div class="selling_product_frame">
             <div class="swiper mySwiper container">
                 <div class="category_top">
                      <span>Top Selling Products</span>
@@ -786,7 +786,7 @@
 </div>
 
 <div class="event_frame">
-    <div class="container">
+    <div class=" container">
       <div class="event_content_box">
         <span class="event_title">Top Deals of The Day</span>
         <div class="timer_wrapper">
@@ -811,12 +811,10 @@
             Show More
         </a>
       </div>
-      <div class="event_product_wrapper">
-<div class="next_prev_box">
-                    <img src="./public/images/icons/next.svg" alt="" class="white_svg">
-                </div>
-                <div class="event_product_boxes">
-                    <div class="event_product_box">
+      <div class="event_product_wrapper swiper mySwiper ">
+
+                <div class="event_product_boxes swiper-wrapper">
+                    <div class="event_product_box swiper-slide">
                         <div class="even_product_img">
                             <img src="./public/images/products/sony_notebook.png" alt="">
                         </div>
@@ -841,7 +839,7 @@
                         </div>
                     </div> 
                     </div>
-                       <div class="event_product_box">
+                       <div class="event_product_box swiper-slide">
                         <div class="even_product_img">
                             <img src="./public/images/products/sony_playstation.png" alt="">
                         </div>
@@ -866,7 +864,7 @@
                         </div>
                     </div> 
                     </div>
-                       <div class="event_product_box">
+                       <div class="event_product_box swiper-slide">
                         <div class="even_product_img">
                             <img src="./public/images/products/apple_watch.png" alt="">
                         </div>
@@ -891,7 +889,7 @@
                         </div>
                     </div> 
                     </div>
-                       <div class="event_product_box">
+                       <div class="event_product_box swiper-slide">
                         <div class="even_product_img">
                             <img src="./public/images/products/canon_camera.png" alt="">
                         </div>
@@ -916,12 +914,38 @@
                         </div>
                     </div> 
                     </div>
+                      <div class="event_product_box swiper-slide">
+                        <div class="even_product_img">
+                            <img src="./public/images/products/canon_camera.png" alt="">
+                        </div>
+                           <div class="product_content_box " style="padding: 0 0 0 10;" >
+                        <span class="product_tittle">CANON</span>
+                        <a href="./product/chosenProduck.html">
+                            <p class="product_desc">
+                           Canon EOS Rebel T100 Digital SLR Camera with.
+                            </p>
+                        </a>
+                        <div class="rewiew_box">
+                         <img src="./public/images/icons/review.svg" alt="">
+                         <img src="./public/images/icons/review.svg" alt="">
+                         <img src="./public/images/icons/review.svg" alt="">
+                         <img src="./public/images/icons/review.svg" alt="">
+                         <img src="./public/images/icons/review.svg" alt="">
+                            <span>3,014 reviews</span>
+                        </div>
+                        <div class="price_box">
+                            <strong>$930</strong>
+                            <span>45$</span>
+                        </div>
+                    </div> 
+                    </div>
+                    
                 </div>
-         <div class="next_prev_box">
-                    <img src="./public/images/icons/next.svg" class="white_svg"  alt="" style="transform: scaleX(-1);">
-                </div>
+         <div class="next_product_img  swiper-button-prev" ></div>
+                       <div class="next_product_img swiper-button-next"> </div>
       </div>
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script src="./public/JS/script.js"></script>
 
     </div>
 </div>

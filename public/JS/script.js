@@ -50,4 +50,30 @@ document.addEventListener('DOMContentLoaded', function () {
     },
   });
 });
-       
+   new Swiper('.event_frame .mySwiper', {
+    slidesPerView: 4,
+    spaceBetween: 20,
+    grabCursor: true,
+    breakpoints: {
+          769: {
+           slidesPerView: 4,
+            slidesPerGroup: 1,
+          },
+        },
+        scrollbar: {
+          el: '.swiper-scrollbar',
+          clickable:true,
+        },
+   
+   
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+      type:'bullets',
+    },
+  });
+    
